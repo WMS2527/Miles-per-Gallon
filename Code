@@ -1,0 +1,13 @@
+//This program should calculate the miles a vehicle can travel per gallon of gasoline.
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int gallons = 15;
+    int miles = 375;
+    int MPG = miles / gallons;
+    cout << "the vehicle can travel " << MPG << " per gallon of gas";
+    return 0;
+}
